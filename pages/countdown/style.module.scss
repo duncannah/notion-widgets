@@ -1,0 +1,14 @@
+.units {
+	display: flex;
+	align-items: flex-end;
+	gap: 1em;
+
+	.unit {
+		// min-width: 4em;
+
+		.num {
+			font-size: 2em;
+			font-weight: bold;
+		}
+	}
+}
