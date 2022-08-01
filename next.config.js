@@ -5,6 +5,7 @@ const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true,
 	assetPrefix: isProd ? `/notion-widgets/` : ``,
+	basePath: isProd ? `/notion-widgets/` : ``,
 };
 
 module.exports = nextConfig;
