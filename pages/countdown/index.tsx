@@ -1,6 +1,8 @@
 import { useRouter } from "next/router";
 import React from "react";
 
+import Edit from "../../components/edit";
+
 import styles from "./style.module.scss";
 
 const Units = [`year`, `month`, `week`, `day`, `hour`, `minute`, `second`];
@@ -58,6 +60,28 @@ export default function Countdown() {
 	return (
 		started && (
 			<div>
+				<Edit>
+					<label>
+						<span>{`date`}</span>
+						<input
+							type={`datetime-local`}
+							name={`date`}
+							defaultValue={
+								typeof router.query.date !== `string`
+									? ``
+									: (() => {
+											const date = new Date(router.query.date);
+											date.setMinutes(date.getMinutes() - date.getTimezoneOffset());
+											return date.toISOString().slice(0, 16);
+									  })()
+							}
+						/>
+					</label>
+					<label>
+						<span>{`event`}</span>
+						<input type={`text`} name={`event`} defaultValue={router.query.event} />
+					</label>
+				</Edit>
 				<div className={styles[`units`]}>
 					{time[0].map((value, index) =>
 						value || index === Units.length - 1 ? (
@@ -78,7 +102,7 @@ export default function Countdown() {
 					)}
 					<div className={styles[`unit`]}>{time[1] > 0 ? `left` : `ago`}</div>
 				</div>
-				{typeof router.query.event === `string` && (
+				{!!router.query.event?.length && (
 					<p style={{ textAlign: `center` }}>
 						{time[1] > 0 ? `until` : `was`} <strong>{router.query.event}</strong>
 					</p>
