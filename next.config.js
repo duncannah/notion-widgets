@@ -4,8 +4,8 @@ const isProd = process.env.NODE_ENV === `production`;
 const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true,
-	assetPrefix: isProd ? `/notion-widgets/` : ``,
-	basePath: isProd ? `/notion-widgets` : ``,
+	assetPrefix: isProd ? `/notion-widgets/` : `/`,
+	basePath: isProd ? `/notion-widgets` : undefined,
 };
 
 module.exports = nextConfig;
