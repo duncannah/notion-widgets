@@ -16,14 +16,14 @@ specifiers:
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
-  sass: 1.54.8
+  sass: 1.54.9
   typescript: 4.8.2
 
 dependencies:
-  next: 12.2.5_vuxjv6o7qhupugnkyf7vyqsruq
+  next: 12.2.5_wgobgza36qebbzsbfctw2tohpy
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  sass: 1.54.8
+  sass: 1.54.9
 
 devDependencies:
   '@types/node': 18.6.3
@@ -1569,7 +1569,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next/12.2.5_vuxjv6o7qhupugnkyf7vyqsruq:
+  /next/12.2.5_wgobgza36qebbzsbfctw2tohpy:
     resolution: {integrity: sha512-tBdjqX5XC/oFs/6gxrZhjmiq90YWizUYU6qOWAfat7zJwrwapJ+BYgX2PmiacunXMaRpeVT4vz5MSPSLgNkrpA==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -1593,7 +1593,7 @@ packages:
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      sass: 1.54.8
+      sass: 1.54.9
       styled-jsx: 5.0.4_react@18.2.0
       use-sync-external-store: 1.2.0_react@18.2.0
     optionalDependencies:
@@ -1897,8 +1897,8 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /sass/1.54.8:
-    resolution: {integrity: sha512-ib4JhLRRgbg6QVy6bsv5uJxnJMTS2soVcCp9Y88Extyy13A8vV0G1fAwujOzmNkFQbR3LvedudAMbtuNRPbQww==}
+  /sass/1.54.9:
+    resolution: {integrity: sha512-xb1hjASzEH+0L0WI9oFjqhRi51t/gagWnxLiwUNMltA0Ab6jIDkAacgKiGYKM9Jhy109osM7woEEai6SXeJo5Q==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
