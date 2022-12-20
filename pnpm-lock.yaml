@@ -16,14 +16,14 @@ specifiers:
   prettier: 2.8.1
   react: 18.2.0
   react-dom: 18.2.0
-  sass: 1.57.0
+  sass: 1.57.1
   typescript: 4.9.4
 
 dependencies:
-  next: 13.0.7_ufbfruihzbho6n4jkpynvghrd4
+  next: 13.0.7_3duxcpitbtplz62feflag7fwby
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  sass: 1.57.0
+  sass: 1.57.1
 
 devDependencies:
   '@types/node': 18.11.17
@@ -1680,7 +1680,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next/13.0.7_ufbfruihzbho6n4jkpynvghrd4:
+  /next/13.0.7_3duxcpitbtplz62feflag7fwby:
     resolution: {integrity: sha512-YfTifqX9vfHm+rSU/H/3xvzOHDkYuMuh4wsvTjiqj9h7qHEF7KHB66X4qrH96Po+ohdid4JY8YVGPziDwdXL0A==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -1704,7 +1704,7 @@ packages:
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      sass: 1.57.0
+      sass: 1.57.1
       styled-jsx: 5.1.0_react@18.2.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 13.0.7
@@ -2042,8 +2042,8 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /sass/1.57.0:
-    resolution: {integrity: sha512-IZNEJDTK1cF5B1cGA593TPAV/1S0ysUDxq9XHjX/+SMy0QfUny+nfUsq5ZP7wWSl4eEf7wDJcEZ8ABYFmh3m/w==}
+  /sass/1.57.1:
+    resolution: {integrity: sha512-O2+LwLS79op7GI0xZ8fqzF7X2m/m8WFfI02dHOdsK5R2ECeS5F62zrwg/relM1rjSLy7Vd/DiMNIvPrQGsA0jw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
